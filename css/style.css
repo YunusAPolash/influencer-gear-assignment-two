@@ -534,4 +534,11 @@ footer {
   .collection {
     grid-template-columns: 1fr !important;
   }
+
+  .brand::before {
+    display: none;
+  }
+  .brand::after {
+    display: none;
+  }
 }
