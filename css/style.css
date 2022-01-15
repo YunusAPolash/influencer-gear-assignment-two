@@ -3,5 +3,119 @@
 * Author : Md Yunus Ali
 * Student Id : WEB5-1122
 * Date: 1/15/2022
-* Link: 
+* Link: https://yunusapolash.github.io/influencer-gear-assignment-two/
+* Code Link: https://github.com/YunusAPolash/influencer-gear-assignment-two
 */
+:root {
+  --font-color: #3a3a3a;
+  --primary-color: #e02c6d;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/*
+*
+* Common,Re-useable css 
+*
+*/
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.btn_primary {
+  font-size: 18px;
+  font-weight: 700px;
+  display: inline-block;
+  color: #fff;
+  background: var(--primary-color);
+  padding: 10px 30px;
+  text-decoration: none;
+  text-align: center;
+}
+.has_icon i {
+  margin-left: 5px;
+}
+.br_50 {
+  border-radius: 50px;
+}
+/*===========================
+  #####  Nav Bar #####
+============================*/
+
+nav .navbar {
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar .logo h2 {
+  color: var(--font-color);
+}
+.navbar ul {
+  display: flex;
+  list-style-type: none;
+}
+.navbar ul li {
+  margin: 0 2px;
+}
+.navbar ul li a {
+  font-size: 18px;
+  color: var(--font-color);
+  font-weight: 600;
+  padding: 10px 15px;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.navbar ul li a:hover {
+  color: var(--primary-color);
+}
+
+/*===========================
+  #####  Banner Section #####
+============================*/
+
+.banner {
+  height: calc(100vh - 70px);
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.banner .banner_left {
+  flex: 1;
+}
+.banner_left h1 {
+  font-size: 52px;
+  color: var(--font-color);
+  line-height: 70px;
+}
+.banner_left p {
+  font-size: 16px;
+  color: var(--font-color);
+  font-weight: 600;
+  line-height: 1.5;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+.banner .banner_right {
+  flex: 1;
+  background-image: url(../images/camera_bg.png);
+  background-repeat: no-repeat;
+  background-position: center right;
+  background-size: 65%;
+  text-align: right;
+}
+
+.banner .banner_right img {
+  width: 70%;
+}
