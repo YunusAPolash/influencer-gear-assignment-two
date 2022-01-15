@@ -476,12 +476,13 @@ footer {
     width: 80%;
   }
   .banner {
-    height: 580px;
+    height: 600px;
   }
   .banner_left {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding-bottom: 35px;
   }
   .banner_left h1 {
     font-size: 28px;
