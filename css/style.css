@@ -9,6 +9,9 @@
 :root {
   --font-color: #3a3a3a;
   --primary-color: #e02c6d;
+  --product-title-color: #18191f;
+  --rating-color: #fb8200;
+  --font-grey: #787885;
 }
 * {
   margin: 0;
@@ -162,4 +165,69 @@ nav .navbar {
 
 .brand .brand_item img {
   width: 60%;
+}
+
+/*==============================
+#####  Popular Collection #####
+================================*/
+.popular_sec {
+  margin: 100px 0px;
+}
+.title {
+  margin-bottom: 30px;
+}
+.title h2 {
+  font-size: 35px;
+  font-weight: 600;
+  color: var(--font-color);
+  text-align: center;
+}
+
+.collection {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 30px;
+  grid-row-gap: 30px;
+}
+
+.collection .collection_item {
+  background: #fff;
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+  padding: 17px 14px;
+  border-radius: 10px;
+}
+
+.collection .collection_item .item_img img {
+  width: 100%;
+  margin-bottom: 16px;
+}
+
+.collection_info .product_name {
+  margin-top: 0px;
+  margin-bottom: 6px;
+  font-size: 28px;
+  font-weight: 600;
+  color: var(--product-title-color);
+}
+
+.collection_info .product_price {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+.collection_info .product_rating {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 16px;
+}
+.collection_info .product_rating i {
+  font-size: 14px;
+  color: var(--rating-color);
+}
+
+.collection_info .product_details p {
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--font-grey);
+  line-height: 1.43;
 }
