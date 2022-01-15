@@ -529,4 +529,7 @@ footer {
     justify-content: center;
     flex-direction: column;
   }
+  .collection {
+    grid-template-columns: 1fr !important;
+  }
 }
