@@ -536,9 +536,9 @@ footer {
   }
 
   .brand::before {
-    display: none;
+    background: none;
   }
   .brand::after {
-    display: none;
+    background: none;
   }
 }
