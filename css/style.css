@@ -112,10 +112,11 @@ nav .navbar {
 }
 .banner .banner_right {
   flex: 1;
-  background-image: url(../images/camera_bg.png);
+  padding: 30px 0px;
+  background-image: url(../images/Circle_design.svg);
   background-repeat: no-repeat;
   background-position: center right;
-  background-size: 65%;
+  background-size: 70%;
   text-align: right;
 }
 
@@ -230,4 +231,52 @@ nav .navbar {
   font-weight: 700;
   color: var(--font-grey);
   line-height: 1.43;
+}
+
+.collection_more {
+  display: flex;
+  margin-top: 50px;
+  justify-content: flex-end;
+}
+
+.collection_more a {
+  font-size: 18px;
+  font-weight: 700;
+  text-decoration: none;
+  color: var(--primary-color);
+}
+.collection_more a i {
+  margin-left: 5px;
+}
+
+/*==============================
+#####  Featured Section #####
+================================*/
+.feature_sec {
+  margin-bottom: 100px;
+}
+.feature {
+  display: flex;
+  align-items: center;
+}
+.feature .feature_left {
+  flex: 0.8;
+}
+.feature .feature_right {
+  flex: 1.2;
+}
+
+.feature_right .feature_content h2 {
+  margin-top: 0;
+  font-size: 38px;
+  font-weight: 700;
+  color: #0a0826;
+  margin-bottom: 16px;
+}
+
+.feature_right .feature_content p {
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--font-grey);
+  margin-bottom: 16px;
 }
